@@ -26,9 +26,9 @@ public class SwaggerConfig /*implements WebMvcConfigurer*/ {
 
     private ApiInfo apiInfoMetaData() {
 
-        return new ApiInfoBuilder().title("NAME OF SERVICE")
-                .description("API Endpoint Decoration")
-                .contact(new Contact("Dev-Team", "https://www.dev-team.com/", "dev-team@gmail.com"))
+        return new ApiInfoBuilder().title("Wallet Service")
+                .description("Wallet api")
+                .contact(new Contact("Nishanth Mathew Joy", "", "dummy@test.com"))
                 .license("Apache 2.0")
                 .licenseUrl("http://www.apache.org/licenses/LICENSE-2.0.html")
                 .version("1.0.0")
